@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>order</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <center>
+	<form method="POST" action="insert.php">
+    <br><center>
+		CakeName:<br>
+        
+		<select name="CakeName">
+			
+			<option value="Strawberry Cake">Strawberry Cake</option>
+			<option  value="Chocolate Cake">Chocolate Cake</option >
+			<option value="Rose Cake">Rose Cake</option>
+			<option value="White Cake">White Cake</option>
+			<option value="Vanilla Cake">Vanilla Cake</option>
+			<option value="Vanilla-Chocolate Cake">Vanilla-Chocolate Cake</option>
+        </select><br>
+
+        CakeDesign:<br>
+        <input type="number" name="CakeDesign" placeholder="Dersign number" id="d"><br><center>
+        <ol type="1">
+          <li><img src="img/1.png"  height="50px;" width="100px;"></li>
+          <li><img src="img/2.png" height="50px;" width="100px;"></li>
+          <li><img src="img/4.png"  height="50px;" width="100px;"></li>
+        </ol></center>
+          
+
+          KGPrice:<br>
+          <select name="KGPrice">
+          	
+          	<option value=".5 KG & Price 200 taka only">.5 KG & Price 200 taka only</option>
+          	<option value="1 KG & Price 400 taka only">1 KG & Price 400 taka only</option>
+          	<option value="1.5 KG & Price 550 taka only">1.5 KG & Price 550 taka only</option>
+          	<option value="2 KG & Price 600 taka only">2 KG & Price 600 taka only</option>
+          	<option value="2.5 KG & Price 700 taka only">2.5 KG & Price 700 taka only</option>
+          	<option value="3 KG & Price 800 taka only">3 KG & Price 800 taka only</option>
+          	<option value="3.5 KG & Price 850 taka only">3.5 KG & Price 850 taka only</option>
+          </select><br>
+
+
+
+          <input type="text" name="Wish" placeholder="Select your wish:" id="d"><br>
+
+          Branchname:<br>
+          <select name="Branchname" >
+			<option value="Dhanmondi27">Dhanmondi32</option>
+			<option value="Dhanmondi32">Dhanmondi32</option>
+			<option value="Newmarket">Newmarket</option>
+			<option value="Mirpur1">Mirpur1</option>
+			<option value="Mirpur10">Mirpur10</option>
+			<option value="Lalbag">Lalbag</option>
+        </select><br>
+        DeliveryDate:<br>
+          <input type="date" name="DeliveryDate" pattern="delivery date"id="d" max="2020-1-1"  min="2019-01-01"><br><br>
+          <input type="submit" name="submit" value="submit">
+
+
+
+
+          
+	</form>
+  </center>
+
+</body>
+</html>
